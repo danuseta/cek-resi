@@ -1,0 +1,73 @@
+.tracking-form .select-container {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.tracking-form .react-select__control {
+  border: 2px solid #afafff;
+  box-shadow: none;
+  border-radius: 8px;
+  padding: 0.3rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.7px;
+  background-color: #fff;
+  font-weight: 600;
+  
+}
+
+.tracking-form .react-select__control--is-focused {
+  border-color: #746CC0;
+  box-shadow: 0 0 0 1px #746CC0;
+}
+
+.tracking-form .react-select__indicator-separator {
+  display: none;
+}
+
+.tracking-form .react-select__dropdown-indicator {
+  color: #746CC0;
+}
+
+.tracking-form .react-select__menu {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 0.5rem;
+  background-color: white;
+}
+
+.tracking-form .react-select__option {
+  padding: 0.75rem;
+  font-size: 1rem;
+  letter-spacing: 0.7px;
+  color: #333;
+  font-weight: 600;
+}
+
+.tracking-form .react-select__single-value {
+  color: #333;
+}
+
+.tracking-form .react-select__option--is-selected {
+  background-color: #746CC0;
+  color: #fff;
+  /* color: #c9ddeb;; */
+}
+
+/* .tracking-form .react-select__option--is-focused {
+  background-color: #e3f2fd;
+  color: #333;
+} */
+
+
+.tracking-form input[type="text"] {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  letter-spacing: 0.7px;
+  transition: border-color 0.3s ease;
+  font-weight: 600;
+}
+
