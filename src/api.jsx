@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = '937ee08730ec3c221a8666fed6fba8c051501797b1bd5d8360fd609462a4e707';
+const API_KEY = 'a74a2672536cf6ecfeddeff1e5b214db53f166550fe9d36e29b4a4fd9f5a79bb';
 
 export const trackPackage = async (courier, awb) => {
   try {
